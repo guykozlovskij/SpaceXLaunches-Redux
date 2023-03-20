@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 5vmin;
+  pointer-events: none;
+  width: auto;
+  display: flex;
+  padding: 10px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-float infinite 3s ease-in-out;
+  }
+}
+
+.App-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  padding-top: 120px;
+}
+
+@keyframes App-logo-float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.launch-grid-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.launch-grid {
+  align-self: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1300px;
+  align-items: center;
+  justify-content: space-around;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.launch-element {
+  padding-left: 25px;
+  padding-right: 25px;
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 250px;
+  height: 300px;
+  border: 1px solid;
+  border-color: gray;
+  border-radius: 10px;
+}
+
+.launch-element button {
+  margin-top: 20px;
+  font-size: 20px;
+}
+
+.launch-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.launch-links a {
+  padding-bottom: 10px;
+}
+
+.specific-launch-view-container {
+  display: flex;
+  justify-content: center;
+}
+
+.specific-launch-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  max-width: 600px;
+  padding-left: 25px;
+  padding-right: 25px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.specific-launch-view h1 {
+  font-size: 40px;
+}
+
+.specific-launch-view img {
+  width: 200px;
+  padding-bottom: 30px;
+}

@@ -1,0 +1,8 @@
+@baseURL = https://api.spacexdata.com
+
+
+
+
+GET https://api.spacexdata.com/v5/launches/5eb87cdbffd86e000604b32c
+
+
