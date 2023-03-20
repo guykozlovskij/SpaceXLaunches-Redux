@@ -1,8 +1,8 @@
-# Marshmallow Frontend Test
+# React/Redux Frontend Test
 
 ## Introduction
 
-Welcome to Marshmallow frontend technical test.
+Welcome to frontend technical test.
 Your task is to create a Typescript app that provides an overview of SpaceX's latest _launches_. 🚀 🛰
 
 ## What we'd like you to do
@@ -44,12 +44,3 @@ The minimum requirement for this task is the use of the following stack:
 - Unit Tests
 - Styled Components
 - Complete both sections in APPROACH.md
-## License
-
-At CodeScreen, we strongly value the integrity and privacy of our assessments. As a result, this repository is under exclusive copyright, which means you **do not** have permission to share your solution to this test publicly (i.e., inside a public GitHub/GitLab repo, on Reddit, etc.). <br>
-
-## Submitting your solution
-
-Please push your changes to the `main branch` of this repository. You can push one or more commits. <br>
-
-Once you are finished with the task, please click the `Submit Solution` link on <a href="https://app.codescreen.com/candidate/65e7ea3c-c8cc-4bc1-9634-26beebecc45f" target="_blank">this screen</a>.
